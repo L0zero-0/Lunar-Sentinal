@@ -1,0 +1,46 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+backend/venv/
+
+# Node dependencies and build output
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+.vite/
+
+# Local runtime files
+*.log
+uvicorn_stdout.log
+.env
+.env.*
+!.env.example
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ML model/checkpoint artifacts
+*.pt
+*.pth
+*.onnx
+*.engine
+*.tflite
+*.pb
+*.h5
+*.ckpt
+*.safetensors
+
+# Keep the trained model used by the backend.
+!backend/weights/
+!backend/weights/best.pt
