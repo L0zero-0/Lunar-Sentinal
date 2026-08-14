@@ -1,0 +1,3 @@
+/* Base reset — detailed styles injected by App.jsx InjectStyles component */
+*, *::before, *::after { box-sizing: border-box; }
+body { margin: 0; }
